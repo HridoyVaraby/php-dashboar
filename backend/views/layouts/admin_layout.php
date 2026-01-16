@@ -58,6 +58,23 @@
 
             <!-- Page Content -->
             <main class="flex-1 overflow-y-auto p-6">
+                <?php
+                use App\Helpers\FlashMessage;
+                $flash = FlashMessage::get();
+                if ($flash):
+                ?>
+                    <div class="mb-6 rounded-md p-4 <?php echo $flash['type'] === 'success' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-red-50 text-red-700 border border-red-200'; ?>">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <i data-lucide="<?php echo $flash['type'] === 'success' ? 'check-circle' : 'alert-circle'; ?>" class="h-5 w-5"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm font-medium"><?php echo htmlspecialchars($flash['message']); ?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php endif; ?>
+
                 <?php if (isset($content)) echo $content; ?>
             </main>
         </div>
