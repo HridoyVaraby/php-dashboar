@@ -1,0 +1,14 @@
+{
+  "name": "php-admin-dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./public/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./public/css/style.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6"
+  }
+}
