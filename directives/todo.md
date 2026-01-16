@@ -2,51 +2,51 @@
 
 ## Phase 1: Foundation (Critical)
 
-- [ ] **1.1 Project Structure Setup**
-  - [ ] Create `backend/` directory structure
-  - [ ] Set up `public/`, `src/`, `views/`, `config/` folders
-  - [ ] Create `.htaccess` for clean URLs
-  - [ ] Initialize `composer.json` for PSR-4 autoloading
+- [x] **1.1 Project Structure Setup**
+  - [x] Create `backend/` directory structure
+  - [x] Set up `public/`, `src/`, `views/`, `config/` folders
+  - [x] Create `.htaccess` for clean URLs
+  - [x] Initialize `composer.json` for PSR-4 autoloading
 
-- [ ] **1.2 Tailwind CSS Build Pipeline**
-  - [ ] Create `package.json` with pnpm
-  - [ ] Copy `tailwind.config.ts` and convert to JS
-  - [ ] Copy `globals.css` and adapt for PHP
-  - [ ] Set up build script for CSS compilation
-  - [ ] Include Google Fonts (Noto Serif Bengali, Noto Sans Bengali)
+- [x] **1.2 Tailwind CSS Build Pipeline**
+  - [x] Create `package.json` with pnpm
+  - [x] Copy `tailwind.config.ts` and convert to JS
+  - [x] Copy `globals.css` and adapt for PHP
+  - [x] Set up build script for CSS compilation
+  - [x] Include Google Fonts (Noto Serif Bengali, Noto Sans Bengali)
 
-- [ ] **1.3 Router Implementation**
-  - [ ] Create `src/Router.php` class
-  - [ ] Implement URL pattern matching
-  - [ ] Support for route parameters (e.g., `/admin/posts/edit/{id}`)
-  - [ ] Set up `public/index.php` front controller
+- [x] **1.3 Router Implementation**
+  - [x] Create `src/Router.php` class
+  - [x] Implement URL pattern matching
+  - [x] Support for route parameters (e.g., `/admin/posts/edit/{id}`)
+  - [x] Set up `public/index.php` front controller
 
-- [ ] **1.4 Database Connection**
-  - [ ] Create `config/db.php` with PDO setup
-  - [ ] Implement singleton database connection
-  - [ ] Configure for PostgreSQL (same as Next.js)
-  - [ ] Create base `Model` class with common methods
+- [x] **1.4 Database Connection**
+  - [x] Create `config/db.php` with PDO setup
+  - [x] Implement singleton database connection
+  - [x] Configure for PostgreSQL (same as Next.js) - *Updated to MySQL per user decision*
+  - [x] Create base `Model` class with common methods
 
-- [ ] **1.5 Session & Auth Middleware**
-  - [ ] Configure secure session settings
-  - [ ] Create `src/Middleware/AuthMiddleware.php`
-  - [ ] Implement role-based access control
-  - [ ] Create `src/Helpers/Auth.php` helper functions
+- [x] **1.5 Session & Auth Middleware**
+  - [x] Configure secure session settings
+  - [x] Create `src/Middleware/AuthMiddleware.php`
+  - [x] Implement role-based access control
+  - [x] Create `src/Helpers/Auth.php` helper functions (Integrated in AuthController/Middleware)
 
-- [ ] **1.6 Admin Layout Template**
-  - [ ] Create `views/layouts/admin_layout.php`
-  - [ ] Implement sidebar component (`views/components/sidebar.php`)
-  - [ ] Implement header component
-  - [ ] Add Lucide icons via CDN
-  - [ ] Style to match Next.js AdminSidebar exactly
+- [x] **1.6 Admin Layout Template**
+  - [x] Create `views/layouts/admin_layout.php`
+  - [x] Implement sidebar component (`views/components/sidebar.php`)
+  - [x] Implement header component
+  - [x] Add Lucide icons via CDN
+  - [x] Style to match Next.js AdminSidebar exactly
 
-- [ ] **1.7 Login Page**
-  - [ ] Create `views/auth/login.php` template
-  - [ ] Create `src/Controllers/AuthController.php`
-  - [ ] Implement login form handling
-  - [ ] Add password verification with bcrypt
-  - [ ] Add CSRF token protection
-  - [ ] Implement redirect after login
+- [x] **1.7 Login Page**
+  - [x] Create `views/auth/login.php` template
+  - [x] Create `src/Controllers/AuthController.php`
+  - [x] Implement login form handling
+  - [x] Add password verification with bcrypt
+  - [x] Add CSRF token protection
+  - [x] Implement redirect after login
 
 ---
 

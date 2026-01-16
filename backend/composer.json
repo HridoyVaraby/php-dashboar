@@ -1,0 +1,19 @@
+{
+    "name": "php-admin-dashboard/backend",
+    "description": "Native PHP Admin Dashboard",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jules",
+            "email": "jules@example.com"
+        }
+    ]
+}
