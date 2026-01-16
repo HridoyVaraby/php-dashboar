@@ -45,3 +45,38 @@ use App\Controllers\CommentController;
 $router->get('/admin/comments', [CommentController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
 $router->post('/admin/comments/approve/{id}', [CommentController::class, 'approve'], [App\Middleware\AuthMiddleware::class]);
 $router->post('/admin/comments/delete/{id}', [CommentController::class, 'destroy'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\VideoController;
+$router->get('/admin/videos', [VideoController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
+$router->get('/admin/videos/create', [VideoController::class, 'create'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/videos/create', [VideoController::class, 'store'], [App\Middleware\AuthMiddleware::class]);
+$router->get('/admin/videos/edit/{id}', [VideoController::class, 'edit'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/videos/edit/{id}', [VideoController::class, 'update'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/videos/delete/{id}', [VideoController::class, 'destroy'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\OpinionController;
+$router->get('/admin/opinions', [OpinionController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
+$router->get('/admin/opinions/create', [OpinionController::class, 'create'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/opinions/create', [OpinionController::class, 'store'], [App\Middleware\AuthMiddleware::class]);
+$router->get('/admin/opinions/edit/{id}', [OpinionController::class, 'edit'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/opinions/edit/{id}', [OpinionController::class, 'update'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/opinions/delete/{id}', [OpinionController::class, 'destroy'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\NewsletterController;
+$router->get('/admin/newsletter', [NewsletterController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\AdController;
+$router->get('/admin/ads', [AdController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
+$router->get('/admin/ads/create', [AdController::class, 'create'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/ads/create', [AdController::class, 'store'], [App\Middleware\AuthMiddleware::class]);
+$router->get('/admin/ads/edit/{id}', [AdController::class, 'edit'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/ads/edit/{id}', [AdController::class, 'update'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/ads/delete/{id}', [AdController::class, 'destroy'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\ProfileController;
+$router->get('/admin/profile', [ProfileController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/profile', [ProfileController::class, 'update'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\SettingsController;
+$router->get('/admin/settings', [SettingsController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
+$router->post('/admin/settings', [SettingsController::class, 'update'], [App\Middleware\AuthMiddleware::class]);
