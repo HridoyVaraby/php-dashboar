@@ -1,0 +1,239 @@
+
+> project-nextjs@0.1.0 lint
+> eslint
+
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\ads\page.tsx
+  35:34  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  39:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\categories\page.tsx
+  51:59  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\comments\page.tsx
+   5:17  warning  'X' is defined but never used             @typescript-eslint/no-unused-vars
+  14:57  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  82:52  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\newsletter\page.tsx
+  68:62  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\opinions\page.tsx
+  75:56  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  83:53  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\posts\page.tsx
+   23:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   70:57  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  125:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\tags\page.tsx
+  67:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\users\page.tsx
+   4:10  warning  'Button' is defined but never used                                                                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   8:10  warning  'useState' is defined but never used                                                                                                                                                                                                                                                     @typescript-eslint/no-unused-vars
+  87:50  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  92:53  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\admin\videos\page.tsx
+  75:52  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  79:49  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\migrate\route.ts
+  62:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\opinions\route.ts
+  11:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  20:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\posts\route.ts
+  19:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\subcategories\route.ts
+  9:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\tags\route.ts
+  9:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\users\route.ts
+  6:27  warning  'req' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\api\videos\route.ts
+  11:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  20:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\auth\page.tsx
+  47:18  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  87:18  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\category\[slug]\page.tsx
+  68:39  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  72:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\opinion\[id]\page.tsx
+  48:25  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\opinions\page.tsx
+  32:67  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  65:45  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  70:41  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\post\[id]\page.tsx
+   79:43  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  141:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\posts\page.tsx
+  45:57  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  53:67  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  80:39  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  84:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\tags\page.tsx
+  40:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\app\videos\page.tsx
+  42:67  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  70:41  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  77:41  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\comments\CommentSection.tsx
+   19:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  119:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  202:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\layout\Footer.tsx
+   27:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+   28:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  131:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\layout\Header.tsx
+   25:39  warning  'signOut' is assigned a value but never used                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  128:25  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  130:29  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\layout\SearchResults.tsx
+   7:14  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  43:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\AdBanner.tsx
+  51:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\CategoryPosts.tsx
+  48:21  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\CategoryTabs.tsx
+   30:13  error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\CategoryTabs.tsx:30:13
+  28 |     useEffect(() => {
+  29 |         if (categories && categories.length > 0 && !activeTab) {
+> 30 |             setActiveTab(categories[0].slug);
+     |             ^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  31 |         }
+  32 |     }, [categories, activeTab]);
+  33 |  react-hooks/set-state-in-effect
+  102:41  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\FeaturedVideos.tsx
+   4:16  warning  'Eye' is defined but never used                                                                                                                                                                                                                                                          @typescript-eslint/no-unused-vars
+  78:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\HeroSection.tsx
+   78:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  120:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  152:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\LatestNews.tsx
+  59:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\Newsletter.tsx
+  23:34  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\OpinionSection.tsx
+  71:37  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\sections\RelatedNews.tsx
+  44:41  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  48:33  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\ui\calendar.tsx
+  55:25  warning  '_props' is defined but never used  @typescript-eslint/no-unused-vars
+  56:26  warning  '_props' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\ui\chart.tsx
+  70:7  warning  '_' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\ui\command.tsx
+  24:11  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\ui\sidebar.tsx
+  653:26  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\ui\sidebar.tsx:653:26
+  651 |   // Random width between 50 to 90%.
+  652 |   const width = React.useMemo(() => {
+> 653 |     return `${Math.floor(Math.random() * 40) + 50}%`
+      |                          ^^^^^^^^^^^^^ Cannot call impure function
+  654 |   }, [])
+  655 |
+  656 |   return (  react-hooks/purity
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\components\ui\textarea.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\hooks\use-comments.ts
+  46:19  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\hooks\use-post.ts
+  1:33  warning  'useQueryClient' is defined but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\hooks\use-search.ts
+  5:56  error    Unexpected any. Specify a different type     @typescript-eslint/no-explicit-any
+  8:11  warning  'router' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\hooks\use-toast.ts
+  18:7  warning  'actionTypes' is assigned a value but only used as a type  @typescript-eslint/no-unused-vars
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\scripts\migrate-data-robust.js
+  1:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  3:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  4:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\scripts\migrate-data.js
+  1:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  3:16  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  4:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\scripts\migrate-data.ts
+  108:39  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  115:39  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  144:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  161:43  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\scripts\migrate-final.js
+  1:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  3:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  4:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\scripts\test-prisma.js
+  1:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  2:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  3:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\Work\Node Projects\NewViewBD - Nextjs\bangla-khobor-dristi-Nextjs\project-nextjs\test-db.js
+  1:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 102 problems (61 errors, 41 warnings)
+

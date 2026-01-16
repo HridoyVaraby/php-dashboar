@@ -1,0 +1,33 @@
+Found admin users: [
+  {
+    id: 'e70ccc5d-5a6b-4708-a30e-2765c445a9fb',
+    email: 'migrated_e70ccc5d-5a6b-4708-a30e-2765c445a9fb@example.com',
+    fullName: 'Hridoy Varaby',
+    role: 'ADMIN'
+  },
+  {
+    id: '9a943efd-f9a0-464f-8776-7ad22da0c363',
+    email: 'migrated_9a943efd-f9a0-464f-8776-7ad22da0c363@example.com',
+    fullName: 'NewsView',
+    role: 'ADMIN'
+  },
+  {
+    id: 'c2889421-8e55-4161-ae0f-0b23d9a35196',
+    email: 'migrated_c2889421-8e55-4161-ae0f-0b23d9a35196@example.com',
+    fullName: 'Fuad Ahmed Tanmoy',
+    role: 'EDITOR'
+  },
+  {
+    id: 'd69e78be-4df7-4c9a-a532-b7d0747c983f',
+    email: 'migrated_d69e78be-4df7-4c9a-a532-b7d0747c983f@example.com',
+    fullName: 'Salma Varaby',
+    role: 'EDITOR'
+  }
+]
+Updated password for: migrated_e70ccc5d-5a6b-4708-a30e-2765c445a9fb@example.com (ADMIN)
+Updated password for: migrated_9a943efd-f9a0-464f-8776-7ad22da0c363@example.com (ADMIN)
+Updated password for: migrated_c2889421-8e55-4161-ae0f-0b23d9a35196@example.com (EDITOR)
+Updated password for: migrated_d69e78be-4df7-4c9a-a532-b7d0747c983f@example.com (EDITOR)
+
+All admin passwords have been reset to: admin123
+Please use this password to login and then change it from the admin panel.

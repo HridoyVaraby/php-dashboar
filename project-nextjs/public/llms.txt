@@ -1,0 +1,22 @@
+# NewsViewBD
+
+NewsViewBD is a leading news portal in Bangladesh, providing the latest news on politics, sports, technology, and more.
+
+## Content Structure
+
+- **Home**: https://newsviewbd.com/
+- **Categories**:
+  - Bangladesh: https://newsviewbd.com/category/bangladesh
+  - International: https://newsviewbd.com/category/international
+  - Politics: https://newsviewbd.com/category/politics
+  - Sports: https://newsviewbd.com/category/sports
+  - Technology: https://newsviewbd.com/category/technology
+  - Entertainment: https://newsviewbd.com/category/entertainment
+
+## API
+
+We do not currently offer a public API for LLMs. Please respect our robots.txt.
+
+## Contact
+
+For inquiries, please contact info@newsviewbd.com.

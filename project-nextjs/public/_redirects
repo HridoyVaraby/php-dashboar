@@ -1,0 +1,7 @@
+
+# Route all /post/:id requests to edge function for proper OG meta tags
+/post/:id https://yxtcwkykmpatavpgfzej.supabase.co/functions/v1/og-metadata/:id 200!
+
+
+# Netlify redirects (fallback for SPA)
+/*    /index.html   200
