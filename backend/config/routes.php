@@ -80,3 +80,6 @@ $router->post('/admin/profile', [ProfileController::class, 'update'], [App\Middl
 use App\Controllers\SettingsController;
 $router->get('/admin/settings', [SettingsController::class, 'index'], [App\Middleware\AuthMiddleware::class]);
 $router->post('/admin/settings', [SettingsController::class, 'update'], [App\Middleware\AuthMiddleware::class]);
+
+use App\Controllers\MediaController;
+$router->post('/admin/upload/image', [MediaController::class, 'uploadImage'], [App\Middleware\AuthMiddleware::class]);
