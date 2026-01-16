@@ -137,6 +137,16 @@ Key components that need PHP/HTML equivalents:
 
 ## Target Project Specification
 
+### User Decisions (Confirmed)
+
+| Decision | Choice | Notes |
+|----------|--------|-------|
+| **Database** | MySQL | New database, not shared with Next.js |
+| **Image Storage** | Local file storage | `public/uploads/` directory |
+| **Rich Text Editor** | TinyMCE | Via CDN |
+| **Deployment Target** | cPanel | Shared hosting |
+| **Composer** | Use for development | Vendor folder committed, no Composer needed on server |
+
 ### Technology Stack (PHP Target)
 
 | Layer | Technology |

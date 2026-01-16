@@ -466,30 +466,17 @@ All components must replicate shadcn/ui styling:
 
 ---
 
-## 8. Open Questions
+## 8. Confirmed Decisions
 
-> [!IMPORTANT]
-> The following decisions require user input before proceeding:
+The following decisions have been confirmed by the user:
 
-1. **Database Connection**: Should the PHP app connect to the **existing PostgreSQL database** used by Next.js, or create a new MySQL database?
-
-2. **Image Uploads**: The Next.js app uses Minio/S3 for media. Should the PHP version:
-   - Use local file storage (`/uploads/`)?
-   - Connect to the same Minio instance?
-   - Use a different storage solution?
-
-3. **Rich Text Editor**: What WYSIWYG editor should be used?
-   - TinyMCE (free for basic)
-   - Quill
-   - CKEditor
-   - SimpleMDE (Markdown)
-
-4. **Deployment Target**: Where will this PHP app be deployed?
-   - Shared hosting (cPanel)?
-   - VPS with Apache/Nginx?
-   - Docker container?
-
-5. **Composer Usage**: Should we use Composer for autoloading, or manual `require` statements?
+| Decision | Choice | Implementation Notes |
+|----------|--------|---------------------|
+| **Database** | MySQL | Create new MySQL database, converted schema from PostgreSQL |
+| **Image Storage** | Local file storage | Use `public/uploads/` directory structure |
+| **Rich Text Editor** | TinyMCE | Include via CDN, no API key required for basic features |
+| **Deployment Target** | cPanel | Shared hosting with FTP/file upload deployment |
+| **Composer** | Development only | Use Composer locally, commit `vendor/` folder, no Composer needed on server |
 
 ---
 
